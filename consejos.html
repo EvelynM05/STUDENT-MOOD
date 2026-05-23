@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONSEJOS</title>
+
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="manifest" href="manifest.webmanifest">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="bg-app">
+
+    <div class="titulo">
+
+        <h1>RECOMENDACIONES</h1>
+
+    </div>
+
+    <div class="caja-consejos" id="cajaConsejos">
+
+    </div>
+
+    <div class="agenda-box">
+
+        <h2>AGENDA PERSONAL</h2>
+
+        <textarea id="agenda"
+        placeholder="Escribe tus actividades..."></textarea>
+
+        <button onclick="guardarAgenda()">
+
+            GUARDAR AGENDA
+
+        </button>
+
+    </div>
+
+    <div class="botones">
+
+        <button onclick="musicaRelax()">
+
+            MÚSICA RELAJANTE
+
+        </button>
+
+        <button onclick="irHistorial()">
+
+            VER ESTADÍSTICAS
+
+        </button>
+
+    </div>
+
+</div>
+
+<script src="funciones.js"></script>
+
+<script>
+
+window.addEventListener('load', cargarConsejos);
+
+</script>
+
+</body>
+</html>

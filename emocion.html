@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMOCIONES</title>
+
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="manifest" href="manifest.webmanifest">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="bg-app">
+
+    <div class="titulo">
+
+        <h1 id="nombreEmocion">
+            FELIZ
+        </h1>
+
+    </div>
+
+    <div class="emocion-selector">
+
+        <button class="anterior">
+
+            <img src="img/left.png"
+            onclick="anteriorEmocion()">
+
+        </button>
+
+        <div class="emocion-img">
+
+            <img src="img/emocion1.png"
+            id="emocion">
+
+        </div>
+
+        <button class="siguiente">
+
+            <img src="img/right.png"
+            onclick="siguienteEmocion()">
+
+        </button>
+
+    </div>
+
+    <div class="botones-emocion">
+
+        <button onclick="seleccionarEmocion()">
+
+            CONTINUAR
+
+        </button>
+
+    </div>
+
+</div>
+
+<script src="funciones.js"></script>
+
+</body>
+</html>

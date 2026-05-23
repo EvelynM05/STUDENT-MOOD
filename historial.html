@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HISTORIAL</title>
+
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="manifest" href="manifest.webmanifest">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="bg-app">
+
+    <div class="titulo">
+        <h1>TU HISTORIAL</h1>
+    </div>
+
+    <div class="historial-box">
+
+        <h2 id="nombre"></h2>
+
+        <h3 id="emocion"></h3>
+
+        <h3 id="visitas"></h3>
+
+        <h3 id="feliz"></h3>
+
+        <h3 id="triste"></h3>
+
+        <h3 id="estresado"></h3>
+
+        <h3 id="cansado"></h3>
+
+        <h3 id="enojado"></h3>
+
+    </div>
+
+    <div class="botones">
+
+        <button onclick="reiniciar()">
+            REINICIAR
+        </button>
+
+    </div>
+
+</div>
+
+<script src="funciones.js"></script>
+
+<script>
+window.addEventListener('load', cargarHistorial);
+</script>
+
+</body>
+</html>
